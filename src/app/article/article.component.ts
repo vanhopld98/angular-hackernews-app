@@ -39,5 +39,6 @@ export class ArticleComponent implements OnInit {
 
   addNewArticle() {
     this.articles.push(this.article);
+    this.article = {};
   }
 }
